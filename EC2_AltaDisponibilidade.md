@@ -70,7 +70,7 @@ sudo chmod -R 777 /var/www/html
 * MySQL 8.0.32 
 * Nivel gratuito 
 * Acesso Admin 
-* Senha: 366446 
+* Senha: senha 
 * Db.t2.micro 
 * 20gb 
 
