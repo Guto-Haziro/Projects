@@ -14,7 +14,8 @@ $ aws logs describe-log-groups --query "logGroups[?contains(logGroupName,'hml') 
 
 Com esse comando apontamos os carecteres HML/DEV que estão acrescentados nos loggroups em tabela: 
 
-![image](uploads/2be81f28372900a4cba8e98dc4b00953/image.png)
+![image](https://github.com/Guto-Haziro/Projects/assets/118192092/2fd4a73f-61d5-4a22-88dc-f0e8cc91912e)
+
 
 ## Baixar extensão 
 Instale o awscli usando a documentação oficial:
@@ -22,7 +23,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 Instale o python na maquina ou vscode:
 https://www.python.org/downloads/
-![image](uploads/1653bce489c8b80b91544c0d16cd0ad8/image.png)
+![image](https://github.com/Guto-Haziro/Projects/assets/118192092/c46f147a-917e-4a53-8168-a0046b40112e)
+
 
 Instale o BOTO3 para integração com as configurações da AWS:
 ~~~comandline:
@@ -66,5 +68,6 @@ for i in newlist:
 print(newlist)
 ~~~
 Com isso a retenção dos loggroups mencionados é alterada conforme o valor em 'retentionInDays':
-![image](uploads/3503aaca6ccebd947e5ef3b9db770455/image.png)
+![image](https://github.com/Guto-Haziro/Projects/assets/118192092/18e2a71c-51e4-4e7a-a7e7-2e9cf25aca4b)
+
 
