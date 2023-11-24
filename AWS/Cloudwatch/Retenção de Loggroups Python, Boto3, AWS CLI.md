@@ -12,9 +12,7 @@ Passo-a-Passo
 $ aws logs describe-log-groups --query "logGroups[?contains(logGroupName,'hml') || contains(logGroupName,'HML') || contains(logGroupName,'dev') || contains(logGroupName,'DEV') && retentionInDays != \`1\`].[logGroupName,to_string(retentionInDays || 'Never')]" --output=table
 ~~~
 
-Com esse comando apontamos os carecteres HML/DEV que estão acrescentados nos loggroups em tabela: 
-
-![image](https://github.com/Guto-Haziro/Projects/assets/118192092/2fd4a73f-61d5-4a22-88dc-f0e8cc91912e)
+Com esse comando apontamos os carecteres HML/DEV que estão acrescentados nos loggroups em tabela.
 
 
 ## Baixar extensão 
