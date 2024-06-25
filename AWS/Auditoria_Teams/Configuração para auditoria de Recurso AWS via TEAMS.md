@@ -171,35 +171,6 @@ def lambda_handler(event, context):
 
 OBS: O _eventname_ irá variar para cada serviço da AWS, o recomendado é localizar o _eventname_ através do CloudTrail ou Cloudwatch. Ou na seguinte referencia: <https://www.gorillastack.com/blog/real-time-events/cloudtrail-event-names/>.
 
-## CloudTrail
-Ao criar o CloudTrail, deverá ser:
-* Criar um _bucket_s3_ para armazenar os logs gerados. 
-* Habilitar _tópico-SNS_ e também o _CloudWatch-Logs_.
-* Desabilitar _Criptografia SSE-KMS do arquivo de log_. 
-* Habilitar a opção _Evento de dados_ e selecionar a fonte de dados = S3.
-* Revisar e criar a tilha.
-  1. Exemplo
-    ![image-2.png](./image-2.png)
-
-## CloudWatch
-Ao abrir a guia do CloudWatch, ir na opção _Regras_ localizada dentro de _Eventos_, ao criar a _Regras_, deverá ser:
-* Informar a origem do evento no campo _Nome do Serviço_.
-* Em tipo de evento informar _AWS API Call via CloudTrail_.
-* Marcar _Operações específicas_e informar os _eventsnames_ desejados.
-* Em destino, informar o _SNS_ desejado e deverá ser adicionado mais um destino informando o _ARN LAMBDA CRIADO PARA EVENTO ESPECÍFICO_.
-* Revisar e criar o evento.
-  1. Exemplo
-    ![Exemplo](./image-1.png)
-
-## SNS
-Após abrir o SNS deverá ser informado uma assinatura para o mesmo para isso deverá ser:
-* Ir em _Assinaturas_ e criar uma nova assinatura.
-* Informar o _ ARN DO TÓPICO_.
-* Informar o protocolo = _lambda_ e na sequencia informar o _ARN LAMBDA CRIADO PARA EVENTO ESPECÍFICO_.
-* Revisar e criar a assinatura.
-  1. Exemplo
-    ![image.png](./image.png)
-
 ## Após realizar todas as configurações efetuar o teste, caso o mesmo tenha exito, será notificado no seu teams.
 
 ## Referências
