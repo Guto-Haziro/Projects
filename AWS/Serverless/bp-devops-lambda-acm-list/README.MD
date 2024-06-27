@@ -1,6 +1,6 @@
 # devops-lambda-acm-list.
 
-![Diagrama da auditoria dos certificados](Projects/Serverless/devops-lambda-acm-list/diagrama_certificado.PNG)
+![Diagrama da auditoria dos certificados](devops-lambda-acm-list/diagrama_certificado.PNG)
 
 Esse projeto tem como intuito fazer auditoria de certificados do ACM de todas as contas da Brasilprev na Aws em um único board do Cloudwatch.
 
