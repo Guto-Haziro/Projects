@@ -3,9 +3,6 @@
 
 * Criar um grupo no Teams com Webhook
 * Criar o código que irá notificar via Lambda
-* Criar um Cloud Trail para coleta das alterações nos serviços
-* Criar conf no Cloudwatch para filtrar as alterações feitas
-* Criar um SNS para gerar a notificação via Teams
 
 # Passo-a-Passo
 
