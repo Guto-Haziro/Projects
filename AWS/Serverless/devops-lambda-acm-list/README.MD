@@ -2,7 +2,7 @@
 
 ![Diagrama da auditoria dos certificados](diagrama_certificado.PNG)
 
-Esse projeto tem como intuito fazer auditoria de certificados do ACM de todas as contas da Brasilprev na Aws em um único board do Cloudwatch.
+Esse projeto tem como intuito fazer auditoria de certificados do ACM de todas as contas na Aws em um único board do Cloudwatch.
 
 ## Recursos utilizados:
 
