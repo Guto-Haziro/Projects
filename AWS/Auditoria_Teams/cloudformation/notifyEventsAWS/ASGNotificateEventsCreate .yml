@@ -8,7 +8,7 @@ Parameters:
     Description: "WebHook for notify Microsoft Teams"
   WebHook2:
     Type: String
-    Default: 'https://brasilprev.webhook.office.com/webhookb2/afe38620-d481-434d-be99-0b09f146db04@97def700-fa5c-4fc3-8940-b07f741d09b8/IncomingWebhook/6a4dfe01f1b041499554fcbef1a0bb67/683bee7f-2873-4901-9114-1f7e98166c14'
+    Default: 'webhook'
     Description: "WebHook for notify Microsoft Teams"
   TagCreatedBy:
     Type: String
