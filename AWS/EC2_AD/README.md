@@ -21,7 +21,7 @@
 ## EC2 
 
 1. Criar instancia. (EC2): 
-* Ubuntu 20.04 LTS 
+* Ubuntu 20.04 LTS (obrigatório para funcionamento)
 * t2.micro 
 * Criar par de chaves 
 * Adicionar subrede equivalente a que esta usando 
