@@ -99,8 +99,8 @@ O Route Table será necessário para apontar a rota do Internet Gateway na insta
  
 
 3. Copie a chave pem dentro da instancia para acesso a máquina privada 
-* scp -i ~/.ssh/aws.pem /home/augustohaziro/.ssh/aws.pem ubuntu@75.101.206.130:/home/ubuntu/.ssh/aws.pem 
-
+* scp -i ~/.ssh/aws.pem /home/user/.ssh/aws.pem ubuntu@"ipdamaquinapublica:/home/ubuntu/.ssh/aws.pem 
+* chmod 400 ~/.ssh/aws.pem
  
 
 4. Acesse a máquina privada dentro da máquina publica 
