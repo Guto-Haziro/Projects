@@ -53,7 +53,7 @@ Quanto menos bits definido na máscara, menor será o número de sub-redes e con
 
  
 
-2. Crie uma instancia publica 
+2. Crie uma instancia privada 
 
 * Ubuntu 22.04 
 * T2.micro 
