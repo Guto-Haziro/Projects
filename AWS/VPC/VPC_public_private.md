@@ -1,4 +1,5 @@
 # Virtual Private Cloud 
+Esta solução se encontra para aplicações que não podem ser acessadas publicamente. (Ex.: Bancos de dados, serviços de mensageria, monitoração...)
 
 * Gerar VPC  
 * Criar Sub-Rede pub e priv 
