@@ -12,7 +12,7 @@
 
 ## IAM 
 
-1. Criar uma função (IAM) 
+1. Criar uma função (IAM) com permissões de "full access" no Bucket S3
 
 2. Alterar grupo de segurança deixar aberto para qualquer trafego. (para facilitar no bootcamp) (EC2) 
 
@@ -187,7 +187,9 @@ Com essa instancia criada com essa AMI, teremos duas maquinas em regiões difere
 6. Criar um Grupo de implantação 
 * De um nome 
 * Selecione o Deploy criado 
-* LocalSelecione a Chave=Name e Valor=web 
+* Local selecione:
+    * instâncias do Amazon EC2
+    * Chave=Name e Valor="nome da instancia" 
 * Desabilite o Load Balancer 
 
 
