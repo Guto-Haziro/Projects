@@ -36,22 +36,35 @@
 
 #!/bin/bash
 sudo apt-get update -y
+
 sudo add-apt-repository ppa:ondrej/php
+
 sudo apt-get update
+
 sudo apt-get install apache2 php8.1 libapache2-mod-php8.1 php8.1-common php8.1-curl php8.1-intl php8.1-mbstring php8.1-xmlrpc php8.1-soap php8.1-mysql php8.1-gd php8.1-xml php8.1-cli php8.1-zip wget mysql-client unzip git binutils ruby -y
+
 sudo systemctl start apache2
+
 sudo systemctl enable apache2
+
 sudo systemctl restart apache2
+
 wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 chmod +x ./install
-sudo ./install auto
-sudo service codedeploy-agent start
-sudo chmod 777 /etc/init.d/codedeploy-agent
-sudo wget https://s3.sa-east-1.amazonaws.com/pages.cloudtreinamentos.com/aws/bootcamp/Bootcamp9.zip
-sudo unzip -o Bootcamp9.zip -d /var/www/html/
-sudo rm /var/www/html/index.html
-sudo chmod -R 777 /var/www/html
 
+sudo ./install auto
+
+sudo service codedeploy-agent start
+
+sudo chmod 777 /etc/init.d/codedeploy-agent
+
+sudo wget https://s3.sa-east-1.amazonaws.com/pages.cloudtreinamentos.com/aws/bootcamp/Bootcamp9.zip
+
+sudo unzip -o Bootcamp9.zip -d /var/www/html/
+
+sudo rm /var/www/html/index.html
+
+sudo chmod -R 777 /var/www/html
   
 
 2. Executar a instancia e após subir, acessar o IP publico  
